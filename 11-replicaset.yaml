@@ -15,3 +15,7 @@ spec:
     metadata:
       tier: DB
       env: QUA
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
