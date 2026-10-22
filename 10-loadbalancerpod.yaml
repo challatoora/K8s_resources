@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: loadbalancer-pod
-  lables:
+  labels:
     tier: DB
     env: QUA
 spec:
