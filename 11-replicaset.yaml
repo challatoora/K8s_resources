@@ -13,8 +13,9 @@ spec:
       env: QUA
   template:
     metadata:
-      tier: DB
-      env: QUA
+      labels: 
+        tier: DB
+        env: QUA
     spec:
       containers:
       - name: nginx
