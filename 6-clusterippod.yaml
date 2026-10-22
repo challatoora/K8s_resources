@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-lables
+  name: pod-cluster
   labels:
     env: Dev
     tier: fe
