@@ -11,3 +11,7 @@ spec:
     matchLabels:
       tier: DB
       env: QUA
+  template:
+    metadata:
+      tier: DB
+      env: QUA
