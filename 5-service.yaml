@@ -6,3 +6,6 @@ spec:
   selector:
     tier: fe
     env: Dev
+  ports:
+    - port: 80
+      targetPort: 80
