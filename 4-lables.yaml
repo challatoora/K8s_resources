@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod-lables
-  lables:
+  labels:
     env: Dev
     tier: fe
 spec:
