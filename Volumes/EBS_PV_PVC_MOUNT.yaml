@@ -36,6 +36,8 @@ spec:
       volumeMounts:
         - name: ebs-storage
           mountPath: /usr/share/nginx/html # Path inside the container where the volume will be accessible
+  nodeSelector:
+    topology.kubernetes.io/zone: us-east-1c
   volumes:
     - name: ebs-storage
       persistentVolumeClaim:
